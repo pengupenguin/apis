@@ -48,7 +48,10 @@ db = SCLAlchemy(app/<variale where flask is stored>)
 
 #11th: set the database with a table andto do that, use the python terminal.
 #stop the server and open the python terminal
-$ python 3
-$ from application import db
+$ python
+>>>> from filename import db
+
+#12th: Creating the tbales
+>>> db.create_all()
 
 
